@@ -7,6 +7,7 @@ on:
     - cron: "17 23 * * *"    # 07:17
     - cron: "17 4 * * *"     # 12:17
     - cron: "37 15 * * *"    # 23:37
+    - cron: "17 12 * * *"    # 20:17
   workflow_dispatch:          # 支持手动触发
 
 permissions:
